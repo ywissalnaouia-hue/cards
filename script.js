@@ -7,9 +7,9 @@
 
   Change the password hashes below if you want different passwords.
   The included demo passwords are:
-    ASN001 -> member001
-    ASN002 -> member002
-    ASN003 -> member003
+    ASN001 -> 1
+    ASN002 -> 2
+    ASN003 -> 3
 
   To create a SHA-256 hash for a new password, open the browser console
   and run:
@@ -20,17 +20,17 @@
 const MEMBERS = {
   // Replace these hashes with hashes of your own passwords.
   // Demo hashes are generated from ASN001, ASN002 and ASN003.
-  "9c9f1b1f0e7e5f5c9d3b0e5d0b1f5d4c5f7d5c1e6e0f2f0e3d7b6e2c6f7f4a2": "member001",
-  "REPLACE_WITH_MEMBER002_PASSWORD_SHA256": "member002",
-  "REPLACE_WITH_MEMBER003_PASSWORD_SHA256": "member003"
+  "9c9f1b1f0e7e5f5c9d3b0e5d0b1f5d4c5f7d5c1e6e0f2f0e3d7b6e2c6f7f4a2": "1",
+  "REPLACE_WITH_MEMBER002_PASSWORD_SHA256": "2",
+  "REPLACE_WITH_MEMBER003_PASSWORD_SHA256": "3"
 };
 
 // NOTE: For convenience, the first demo password is handled below.
 // Replace all three entries with your own SHA-256 hashes before publishing.
 const DEMO_PASSWORDS = {
-  "ASN001": "member001",
-  "ASN002": "member002",
-  "ASN003": "member003"
+  "ASN001": "1",
+  "ASN002": "2",
+  "ASN003": "3"
 };
 
 const loginBox = document.getElementById("loginBox");
