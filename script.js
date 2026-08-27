@@ -29,7 +29,7 @@ const backImage = document.getElementById("backImage");
 
 function openCard(cardNumber) {
   frontImage.src = `${cardNumber}-front.png`;
-  backImage.src = `${cardNumber}-back.jpg`;
+  backImage.src = `${cardNumber}-back.png`;
   frontImage.onerror = () => {
     error.textContent = `Front image for card ${cardNumber} was not found.`;
   };
