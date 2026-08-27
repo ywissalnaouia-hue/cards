@@ -3,11 +3,11 @@ ASN MEMBERSHIP CARDS — ONE LINK + DIFFERENT PASSWORDS
 Image files must be placed inside the cards/ folder using exactly:
 
 1-front.png
-1-back.jpg
+1-back.png
 2-front.png
-2-back.jpg
+2-back.png
 3-front.png
-3-back.jpg
+3-back.png
 
 Current password mapping:
 ASN001 -> card 1
